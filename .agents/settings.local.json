@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(python -m py_compile app/services/embedding_generator.py)",
+      "Bash(python -m py_compile app/routes/students.py)",
+      "Bash(python -m py_compile app/routes/attendance.py)",
+      "Bash(python -m py_compile app/services/recognition_engine.py)",
+      "Bash(python -m py_compile app/database/student_repository.py)",
+      "Bash(python -m py_compile app/services/job_manager.py)",
+      "Bash(python -m py_compile app/services/camera_capture.py)",
+      "Bash(python -m py_compile app/services/attendance_engine.py)",
+      "Bash(python -m py_compile app/services/division_utils.py)",
+      "Bash(python -m py_compile app/utils/common.py)",
+      "Bash(python *)",
+      "Bash(uv run *)",
+      "Bash(npx skills *)",
+      "Bash(.venv/Scripts/python.exe *)",
+      "Bash(xargs wc -l)",
+      "Bash(npx tsc *)"
+    ]
+  }
+}
